@@ -9,12 +9,12 @@
 
 <body>
 
-<div class="container-fluid">
-  <div class="row" style="height: 30px;">
+<div class="container-fluid text-md-center">
+  <div class="row" style="height: 25px; background-color: #586589;">
     <div class="col-4">
       <a href="#">Link</a>
     </div>
-    <div class="col-4">
+    <div class="col-4 text-white">
       <span><?php echo date('F j, Y'); ?></span>
     </div>
     <div class="col-4 d-flex justify-content-end">

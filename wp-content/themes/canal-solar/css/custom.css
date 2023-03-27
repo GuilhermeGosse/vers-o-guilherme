@@ -1,0 +1,20 @@
+a.nav-link{
+	color: #586589 !important;
+}
+
+a.nav-link:hover{
+	color: #E54F38 !important;
+}
+
+li.menu-item-object-custom a{
+	background-color: #E54F38 !important;
+	color: #fff !important;
+	border-radius: 5px;
+}
+
+
+li.menu-item-object-custom a:hover{
+	transition: 0.5s;
+	transform: scale(1.05);
+	color: #fff !important
+}
