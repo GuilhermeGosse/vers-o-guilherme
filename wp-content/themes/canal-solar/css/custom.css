@@ -1,20 +1,43 @@
-a.nav-link{
-	color: #586589 !important;
+a.nav-link {
+  color: #000 !important;
+text-transform: uppercase;
 }
 
-a.nav-link:hover{
-	color: #E54F38 !important;
+a.nav-link:hover {
+  color: #18125E !important;
 }
 
-li.menu-item-object-custom a{
-	background-color: #E54F38 !important;
-	color: #fff !important;
-	border-radius: 5px;
+li.menu-item-object-custom a {
+  background-color: #18125E !important;
+  color: #fff !important;
+  border-radius: 5px;
 }
 
-
-li.menu-item-object-custom a:hover{
-	transition: 0.5s;
-	transform: scale(1.05);
-	color: #fff !important
+li.menu-item-object-custom a:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+  color: #fff !important;
 }
+
+input:focus {
+  box-shadow: none !important;
+  background-color: #e4e4e4 !important;
+}
+
+.search-submit:hover{
+	background-color: #18125E;
+}
+
+.email{
+    border-radius: 20px; 
+    padding: 10px; 
+    background-color: #18125E; 
+    cursor: pointer;
+    width: 100px;
+}
+
+#email{
+    margin-top: 10px; 
+    color: #fff;
+}
+
