@@ -34,10 +34,11 @@
 
                     <div class="row mt-4">
                         <div class="col-md-6">
-                            <?php if (has_post_thumbnail()) : ?>
-                                <img src="<?php the_post_thumbnail_url('medium'); ?>" class="card-img-top" style="width: 150px; height: 120px;" alt="<?php the_title(); ?>">
-                                </a>
-                            <?php endif; ?>
+                            <a href="<?php the_permalink(); ?>">
+                                <?php if (has_post_thumbnail()) : ?>
+                                    <img src="<?php the_post_thumbnail_url('medium'); ?>" class="card-img-top" style="width: 180px; height: 120px;" alt="<?php the_title(); ?>">
+                            </a>
+                        <?php endif; ?>
                         </div>
                         <div class="col-md-6">
                             <a href="<?php the_permalink(); ?>">
@@ -91,10 +92,11 @@
 
                     <div class="row mt-4">
                         <div class="col-md-6">
-                            <?php if (has_post_thumbnail()) : ?>
-                                <img src="<?php the_post_thumbnail_url('medium'); ?>" class="card-img-top" style="width: 150px; height: 120px;" alt="<?php the_title(); ?>">
-                                </a>
-                            <?php endif; ?>
+                            <a href="<?php the_permalink(); ?>">
+                                <?php if (has_post_thumbnail()) : ?>
+                                    <img src="<?php the_post_thumbnail_url('medium'); ?>" class="card-img-top" style="width: 180px; height: 120px;" alt="<?php the_title(); ?>">
+                            </a>
+                        <?php endif; ?>
                         </div>
                         <div class="col-md-6">
                             <a href="<?php the_permalink(); ?>">
