@@ -1,14 +1,13 @@
-
-a{
-	text-decoration: none;
+a {
+  text-decoration: none;
   color: #000;
 }
 
-a:hover{
+a:hover {
   color: rgba(0, 0, 0, 0.8);
 }
 
-span{
+span {
   font-weight: bold;
 }
 
@@ -19,17 +18,18 @@ ul.post-categories {
   padding: 0px 10px 0px 10px !important;
 }
 
-ul.post-categories a{
-	color: #fff !important;
-	text-transform: uppercase;
-  }
+ul.post-categories a {
+  color: #fff !important;
+  text-transform: uppercase;
+}
 
 a.nav-link {
   color: #000 !important;
   text-transform: uppercase;
 }
 
-a.nav-link:hover, a.nav-link.active{
+a.nav-link:hover,
+a.nav-link.active {
   color: #18125e !important;
 }
 
@@ -67,19 +67,17 @@ input:focus {
   color: #fff;
 }
 
-.emphasis h4 a, h5 a, h6 a{
+.emphasis h4 a,
+h5 a,
+h6 a {
   color: #fff;
 }
 
-h4.card-text.emphasis, 
-h5.card-text.emphasis, 
+h4.card-text.emphasis,
+h5.card-text.emphasis,
 h6.card-text.emphasis {
   align-self: end;
-  color: #fff; 
+  color: #fff;
   font-weight: bold;
-  text-shadow: 0px 0px 5px rgba(0,0,0, .9);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
 }
-
-
-
-
