@@ -1,14 +1,40 @@
-a.nav-link {
-  color: #000 !important;
-text-transform: uppercase;
+
+a{
+	text-decoration: none;
+  color: #000;
 }
 
-a.nav-link:hover {
-  color: #18125E !important;
+a:hover{
+  color: rgba(0, 0, 0, 0.8);
+}
+
+span{
+  font-weight: bold;
+}
+
+ul.post-categories {
+  color: #fff !important;
+  background-color: #18125e;
+  list-style-type: none;
+  padding: 0px 10px 0px 10px !important;
+}
+
+ul.post-categories a{
+	color: #fff !important;
+	text-transform: uppercase;
+  }
+
+a.nav-link {
+  color: #000 !important;
+  text-transform: uppercase;
+}
+
+a.nav-link:hover, a.nav-link.active{
+  color: #18125e !important;
 }
 
 li.menu-item-object-custom a {
-  background-color: #18125E !important;
+  background-color: #18125e !important;
   color: #fff !important;
   border-radius: 5px;
 }
@@ -24,20 +50,36 @@ input:focus {
   background-color: #e4e4e4 !important;
 }
 
-.search-submit:hover{
-	background-color: #18125E;
+.search-submit:hover {
+  background-color: #18125e;
 }
 
-.email{
-    border-radius: 20px; 
-    padding: 10px; 
-    background-color: #18125E; 
-    cursor: pointer;
-    width: 100px;
+.email {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #18125e;
+  cursor: pointer;
+  width: 100px;
 }
 
-#email{
-    margin-top: 10px; 
-    color: #fff;
+#email {
+  margin-top: 10px;
+  color: #fff;
 }
+
+.emphasis h4 a, h5 a, h6 a{
+  color: #fff;
+}
+
+h4.card-text.emphasis, 
+h5.card-text.emphasis, 
+h6.card-text.emphasis {
+  align-self: end;
+  color: #fff; 
+  font-weight: bold;
+  text-shadow: 0px 0px 5px rgba(0,0,0, .9);
+}
+
+
+
 
