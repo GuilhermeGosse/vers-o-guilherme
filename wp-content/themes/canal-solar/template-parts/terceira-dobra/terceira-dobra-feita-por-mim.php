@@ -56,7 +56,7 @@
             endwhile;
             ?>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 principal">
             <div class="row">
                 <div class="col-md">
                     <div class="col-md-12 d-flex align-items-center">
@@ -74,7 +74,7 @@
                     if ($brasil_posts->have_posts()) : while ($brasil_posts->have_posts()) : $brasil_posts->the_post();
                     ?>
                             <a href="<?php the_permalink(); ?>">
-                                <p class="card-text mt-2"><span style="color: #18125e;"><?php the_title(); ?></span></p>
+                                <p class="card-text mt-2"><span><?php the_title(); ?></span></p>
                             </a>
                     <?php
                         endwhile;
@@ -101,7 +101,7 @@
                     if ($tecnologia_posts->have_posts()) : while ($tecnologia_posts->have_posts()) : $tecnologia_posts->the_post();
                     ?>
                             <a href="<?php the_permalink(); ?>">
-                                <p class="card-text mt-2"><span style="color: #18125e;"><?php the_title(); ?></span></p>
+                                <p class="card-text mt-2"><span><?php the_title(); ?></span></p>
                             </a>
                     <?php
                         endwhile;
@@ -128,7 +128,7 @@
                     if ($mundo_posts->have_posts()) : while ($mundo_posts->have_posts()) : $mundo_posts->the_post();
                     ?>
                             <a href="<?php the_permalink(); ?>">
-                                <p class="card-text mt-2"><span style="color: #18125e;"><?php the_title(); ?></span></p>
+                                <p class="card-text mt-2"><span><?php the_title(); ?></span></p>
                             </a>
                     <?php
                         endwhile;

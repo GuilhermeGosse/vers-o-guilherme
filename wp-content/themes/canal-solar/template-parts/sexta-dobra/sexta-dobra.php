@@ -55,7 +55,7 @@ echo '<div class="col-md-8 papo-solar">
                 $query->the_post();
         ?>
 
-                <div class="row mt-4">
+                <div class="row mt-4 principal">
                     <div class="col-md-6">
                         <a href="<?php the_permalink(); ?>">
                             <?php if (has_post_thumbnail()) : ?>

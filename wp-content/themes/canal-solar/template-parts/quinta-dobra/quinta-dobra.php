@@ -60,7 +60,7 @@
                 $query->the_post();
         ?>
 
-                <div class="row g-2 mt-1">
+                <div class="row g-2 mt-1 principal">
                     <div class="col-md-6">
                         <a href="<?php the_permalink(); ?>">
                             <?php if (has_post_thumbnail()) : ?>
@@ -146,7 +146,7 @@
                 $query->the_post();
         ?>
 
-                <div class="row g-2 mt-1">
+                <div class="row g-2 mt-1 principal">
                     <div class="col-md-6">
                         <a href="<?php the_permalink(); ?>">
                             <?php if (has_post_thumbnail()) : ?>
@@ -233,7 +233,7 @@
                 $query->the_post();
         ?>
 
-                <div class="row g-2 mt-1">
+                <div class="row g-2 mt-1 principal">
                     <div class="col-md-6">
                         <a href="<?php the_permalink(); ?>">
                             <?php if (has_post_thumbnail()) : ?>

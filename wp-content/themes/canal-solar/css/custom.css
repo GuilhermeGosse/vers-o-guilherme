@@ -87,6 +87,14 @@ h6.card-text.emphasis {
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
 }
 
+.principal .card-text{
+  color: #18125e;
+}
+
+.principal .card-text:hover{
+  color: #18125ea8;
+}
+
 footer{
     background-color: #252525;
 }

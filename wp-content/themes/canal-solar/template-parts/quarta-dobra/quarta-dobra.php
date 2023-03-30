@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <div class="row mt-4">
+    <div class="row mt-4 principal">
         <div class=" col-md-6 emphasis">
             <?php
             $args = array(
@@ -82,7 +82,7 @@
         <?php endwhile; ?>
         <?php wp_reset_postdata(); ?>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-4 principal">
         <?php
         $args = array(
             'post_type' => 'post',
