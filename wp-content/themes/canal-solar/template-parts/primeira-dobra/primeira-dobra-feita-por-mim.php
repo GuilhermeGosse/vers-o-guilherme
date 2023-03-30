@@ -30,7 +30,6 @@
             </h4>
           </div>
         </div>
-
     <?php
       endwhile;
     endif;

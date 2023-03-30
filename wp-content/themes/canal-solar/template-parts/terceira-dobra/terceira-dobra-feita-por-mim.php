@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="row mt-4">
-        <div class="col border-right border-success border-3">
+        <div class="col border-right border-black border-1" style="border-right: solid">
             <?php
             $args = array(
                 'post_type' => 'post',
@@ -67,7 +67,7 @@
                     <?php
                     $args = array(
                         'category_name' => 'brasil',
-                        'posts_per_page' => 2
+                        'posts_per_page' => 3
                     );
                     $brasil_posts = new WP_Query($args);
 
@@ -94,11 +94,11 @@
                     <?php
                     $args = array(
                         'category_name' => 'tecnologia',
-                        'posts_per_page' => 2
+                        'posts_per_page' => 3
                     );
-                    $brasil_posts = new WP_Query($args);
+                    $tecnologia_posts = new WP_Query($args);
 
-                    if ($brasil_posts->have_posts()) : while ($brasil_posts->have_posts()) : $brasil_posts->the_post();
+                    if ($tecnologia_posts->have_posts()) : while ($tecnologia_posts->have_posts()) : $tecnologia_posts->the_post();
                     ?>
                             <a href="<?php the_permalink(); ?>">
                                 <p class="card-text mt-2"><span style="color: #18125e;"><?php the_title(); ?></span></p>
@@ -121,11 +121,11 @@
                     <?php
                     $args = array(
                         'category_name' => 'mundo',
-                        'posts_per_page' => 2
+                        'posts_per_page' => 3
                     );
-                    $brasil_posts = new WP_Query($args);
+                    $mundo_posts = new WP_Query($args);
 
-                    if ($brasil_posts->have_posts()) : while ($brasil_posts->have_posts()) : $brasil_posts->the_post();
+                    if ($mundo_posts->have_posts()) : while ($mundo_posts->have_posts()) : $mundo_posts->the_post();
                     ?>
                             <a href="<?php the_permalink(); ?>">
                                 <p class="card-text mt-2"><span style="color: #18125e;"><?php the_title(); ?></span></p>
