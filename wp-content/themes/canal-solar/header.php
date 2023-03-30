@@ -5,6 +5,21 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php wp_head(); ?>
+  <style type="text/css">
+    a.nav-link:hover,
+    a.nav-link.active,
+    .principal .card-text,
+    .subtitle {
+      color: <?php echo get_theme_mod('sp_color'); ?> !important;
+    }
+    
+    ul.post-categories,
+    li.menu-item-object-custom a,
+    .search-submit:hover,
+    .email {
+      background-color: <?php echo get_theme_mod('sp_color'); ?>;
+    }
+  </style>
 </head>
 
 <body>
@@ -50,7 +65,7 @@
       </div>
       <div class="col-md-5">
         <div id="email">
-          <h6 class="email"><i class="fa fa-envelope border-1" aria-hidden="true"></i>  E-mail</h6>
+          <h6 class="email"><i class="fa fa-envelope border-1" aria-hidden="true"></i> E-mail</h6>
         </div>
       </div>
       <div class="col-md-6 d-flex align-items-center justify-content-end">

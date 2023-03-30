@@ -7,7 +7,7 @@
     </div>
     <div class="row mt-4">
         <div class="col">
-            <h5 class="subtitle" style="color: #18125e;">NOTÍCIAS</h5>
+            <h5 class="subtitle">NOTÍCIAS</h5>
 
             <?php
             $args = array(
@@ -65,7 +65,7 @@
 
 
         <div class="col">
-            <h5 class="subtitle" style="color:#18125e;">ARTIGOS</h5>
+            <h5 class="subtitle">ARTIGOS</h5>
 
             <?php
             $args = array(

@@ -18,7 +18,7 @@ $videos = array(
 );
 
 echo '<div class="col-md-8 papo-solar">
-        <h6 class="mt-4" style="color: #18125e;"><i class="fas fa-play" style="margin-right: 2px;"></i>Papo Solar</h6>
+        <h6 class="mt-4 subtitle"><i class="fas fa-play" style="margin-right: 2px;"></i>Papo Solar</h6>
         <div class="row mt-3 videoContainer">';
         $iframe = '<iframe style="border-radius: 12px;" src="' . $videos[0]["src"] . '" width="100%" height="' . $videos[0]["height"] . 'px" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
         echo '<div class="col-md-12">' . $iframe . '</div></div>
@@ -31,7 +31,7 @@ echo '<div class="col-md-8 papo-solar">
     </div>';
 ?>
     <div class="col-md col-videos">
-        <h6 class="mt-4" style="color: #18125e;"><i class="fas fa-video" style="margin-right: 2px;"></i>Vídeos</h6>
+        <h6 class="mt-4 subtitle"><i class="fas fa-video" style="margin-right: 2px;"></i>Vídeos</h6>
         <?php
         $args = array(
             'post_type' => 'post',

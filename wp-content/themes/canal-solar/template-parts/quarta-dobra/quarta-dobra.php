@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <div class="row mt-4 principal">
+    <div class="row mt-4">
         <div class=" col-md-6 emphasis">
             <?php
             $args = array(
@@ -60,7 +60,7 @@
         $query = new WP_Query($args);
         while ($query->have_posts()) : $query->the_post();
         ?>
-            <div class="col-md-3">
+            <div class="col-md-3 principal">
                 <div class="card border-0">
                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium', ['class' => 'card-img', 'alt' => 'Featured Image', 'style' => 'width:250px; height: 150px']); ?></a>
                     <div class="card-body">

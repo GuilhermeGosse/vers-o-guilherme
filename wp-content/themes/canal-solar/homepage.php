@@ -17,9 +17,6 @@ get_template_part('template-parts/sexta-dobra/sexta-dobra');
 get_template_part('template-parts/setima-dobra/setima-dobra');
 get_template_part('template-parts/oitava-dobra/oitava-dobra');
 
-
-
-
 get_footer();
 ?>
 </div>
