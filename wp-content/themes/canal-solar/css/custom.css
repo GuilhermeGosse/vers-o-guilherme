@@ -4,6 +4,10 @@ a {
   color: #000;
 }
 
+.principal .card-text:hover{
+  opacity: 0.8;
+}
+
 a:hover {
   color: rgba(0, 0, 0, 0.8);
 }
@@ -78,4 +82,14 @@ h6.card-text.emphasis {
 
 footer{
     background-color: #252525;
+}
+
+.border-bottom{
+  border-color: #000 !important;
+}
+
+hr.divisor{
+  background-color: #000 !important;
+  opacity: 1 !important;
+  margin: auto !important;
 }

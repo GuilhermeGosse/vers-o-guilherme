@@ -10,14 +10,14 @@
     a.nav-link.active,
     .principal .card-text,
     .subtitle {
-      color: <?php echo get_theme_mod('sp_color'); ?> !important;
+      color: <?php echo get_theme_mod('cs_color'); ?> !important;
     }
     
     ul.post-categories,
     li.menu-item-object-custom a,
     .search-submit:hover,
     .email {
-      background-color: <?php echo get_theme_mod('sp_color'); ?>;
+      background-color: <?php echo get_theme_mod('cs_color');?> !important;
     }
   </style>
 </head>
