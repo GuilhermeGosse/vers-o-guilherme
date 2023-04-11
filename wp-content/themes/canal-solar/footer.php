@@ -35,11 +35,11 @@
         É proibida a reprodução parcial ou total deste site em qualquer meio.</p>
     </div>
 
-    <div class="col-md-3 ab-solar">
+    <div class="col-md-3 d-flex justify-content-center">
       <img src="<?php echo wp_get_attachment_url(get_theme_mod('cs_image-terceira-coluna'));?>" class="img-fluid" alt="">
     </div>
 
-    <div class="col-md-3 selo-gptw">
+    <div class="col-md-3 d-flex justify-content-center">
       <img src="<?php echo wp_get_attachment_url(get_theme_mod('cs_image-quarta-coluna'));?>" class="img-fluid" alt="">
     </div>
   </div>

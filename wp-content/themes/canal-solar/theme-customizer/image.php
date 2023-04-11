@@ -20,8 +20,8 @@ $wp_customize->add_control(
             'label' => 'Selecione a imagem da terceira coluna',
             'section' => 'cs_image_section',
             'settings' => 'cs_image-terceira-coluna',
-            'height' => 400,
-            'width' => 400
+            'height' => 200,
+            'width' => 200
         )
     )
 );
@@ -34,8 +34,8 @@ $wp_customize->add_control(
             'label' => 'Selecione a imagem da quarta coluna',
             'section' => 'cs_image_section',
             'settings' => 'cs_image-quarta-coluna',
-            'height' => 400,
-            'width' => 400
+            'height' => 200,
+            'width' => 200
         )
     )
 );

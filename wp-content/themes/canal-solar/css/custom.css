@@ -34,6 +34,7 @@ ul.post-categories a {
 a.nav-link {
   color: #000 !important;
   text-transform: uppercase;
+  font-weight:500;
 }
 
 li.menu-item-object-custom a {
@@ -93,3 +94,23 @@ hr.divisor{
   opacity: 1 !important;
   margin: auto !important;
 }
+
+.revista-image {
+  transition: transform 0.2s ease-out;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  cursor: pointer;
+  scale: 1;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.revista-image:hover {
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+
+
+
